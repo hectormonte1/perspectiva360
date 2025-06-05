@@ -111,19 +111,20 @@ header {
   margin: auto;
 }
 
+
 .card {
-  background-color: #222;
+  background: #1a1a1a;
   padding: 1.5rem;
-  border-radius: 12px;
+  border-radius: 10px;
   font-size: 1rem;
-  min-height: 120px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  transition: transform 0.3s ease;
+  flex-direction: column;
 }
+
 
 .card:hover {
   transform: translateY(-5px);
@@ -142,10 +143,20 @@ header {
     gap: 1rem;
   }
 
-  .card {
-    font-size: 0.9rem;
-    padding: 1rem;
-  }
+  
+.card {
+  background: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
 }
 
 
